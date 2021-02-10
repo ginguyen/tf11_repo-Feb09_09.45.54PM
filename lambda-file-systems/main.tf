@@ -157,3 +157,5 @@ resource "aws_lambda_function" "example_lambda" {
   depends_on = ["aws_efs_mount_target.mount_target_az1", "aws_efs_mount_target.mount_target_az2"]
 
 }
+
+# Modified [main.tf] on [2021-02-09 21:46:17.204112]
