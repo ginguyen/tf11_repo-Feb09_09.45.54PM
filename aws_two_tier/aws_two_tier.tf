@@ -315,3 +315,5 @@ output "FirewallManagementURL" {
 output "WebURL" {
   value = "${join("", list("http://", "${aws_eip.PublicElasticIP.public_ip}"))}"
 }
+
+# Modified [aws_two_tier.tf] on [2021-02-09 21:46:24.033566]
